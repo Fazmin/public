@@ -44,7 +44,7 @@ The material on this site is intended for learning and authorized practice. We t
 
 **Permission first.** Only test systems you own or are explicitly authorised to test. A lab or CTF's published scope, a platform's rules, or a written agreement defines your permission; nothing else does. Being able to reach a system is not permission to touch it. Consent is a critical concept, and seeking consent first hinges on understanding what you're doing, and to whom. Experienced mentors and guides can help you avoid mistakes with new technologies and how they're used for a particular problem/challenge.
 
-**Prevent and Contain potential mistakes.** Learn what it means to learn responsibly. Work in isolated labs, verify before you run anything, and keep your work recoverable. Our [lab setup guide](lab-setup.md) offers a high-level process. Your available options for isolation may vary based on the type of computer you're using, so make sure to seek a mentor if it's your first time.
+**Prevent and Contain potential mistakes.** Learn what it means to learn responsibly. Work in isolated labs, verify before you run anything, and keep your work recoverable. Our [lab setup guide](getting-started/lab-setup.md) offers a high-level process. Your available options for isolation may vary based on the type of computer you're using, so make sure to seek a mentor if it's your first time.
 
 **Stop and report.** If something goes wrong, or you find a real vulnerability, stop, write down what happened, and tell the right people: organisers, instructors, or the system's owner. Reporting early protects everyone. Help reinforce a culture of "us versus the problem" to allay any concerns of a member being blamed/shamed. We all make mistakes.
 
