@@ -1,0 +1,71 @@
+site_name: Advanced Learning Hub
+site_description: A cybersecurity learning resource for building depth across the core security domains
+site_url: https://teamapd-1280.github.io/Test/
+
+repo_name: TeamAPD-1280/Test
+repo_url: https://github.com/TeamAPD-1280/Test
+
+theme:
+  name: material
+  logo: assets/images/apd-1280-logo.png
+  favicon: assets/images/apd-1280-logo.png
+
+  font:
+    text: Share Tech Mono    # monospace body — full terminal feel
+    code: Share Tech Mono
+
+  palette:
+    - scheme: slate          # dark mode only
+      primary: black
+      accent: green          # classic green-on-black terminal accent
+
+  language: en
+
+  features:
+    #- navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - What is a CTF?: getting-started/what-is-a-ctf.md
+      - Ethics and Rules: getting-started/ethics-and-rules.md
+      - Lab Setup: getting-started/lab-setup.md
+      - Simulations and Competitions: getting-started/simulations-and-competitions.md
+      - Cyber Glossary: getting-started/glossaries.md
+      - Certifications: getting-started/certification-map.md
+
+  - Learning Index: 
+      - Security Architecture and Development: learning/security-architecture-and-development/index.md
+      - Network Security: learning/communication-and-network-security/index.md
+      - Identity and Access Management: learning/identity-and-access-management/index.md
+      - Security Assessment and Testing: learning/security-assessment-and-testing/index.md
+      - Software Development Security: learning/software-development-security/index.md
+
+  - Simulations and Competitions:
+      - Overview: ctf-categories/simulations-and-competitions.md 
+      - Open Source Intelligence (OSINT): learning/open-source-intelligence/index.md
+      - Using AI: ctf-categories/using-ai/index.md
